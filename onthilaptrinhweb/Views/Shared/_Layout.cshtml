@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>@ViewData["Title"] - Bài Thi Web</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="stylesheet" type="text/css" href="~/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="~/icomoon/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="~/css/vendor.css">
+    <link rel="stylesheet" type="text/css" href="~/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script src="~/js/modernizr.js"></script>
+</head>
+<body>
+
+    <header id="header">
+        <div id="header-wrap">
+            <nav class="primary-nav padding-small">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-2 col-md-2">
+                            <div class="main-logo">
+                                <a href="/">
+                                    <h3 style="margin:0;">ULTRAS</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-10 col-md-10">
+                            <div class="navbar">
+                                <div id="main-nav" class="stellarnav d-flex justify-content-end right">
+                                    <ul class="menu-list">
+                                        <li><a href="/" class="item-anchor active">Home</a></li>
+                                        <li><a href="#" class="item-anchor">Shop</a></li>
+                                        <li><a href="#" class="item-anchor">About</a></li>
+                                        <li><a href="#" class="item-anchor">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div style="min-height: 600px;">
+        @RenderBody()
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>HỌ VÀ TÊN SINH VIÊN - MÃ SV</h5>
+                    <p>Bài thi thực hành ASP.NET Core MVC</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="footer-bottom">
+        <div class="container">
+            <div class="copyright">
+                <p>Template adapted for Exam</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/js/jquery-1.11.0.min.js"></script>
+    <script src="~/js/plugins.js"></script>
+    <script src="~/js/script.js"></script>
+
+    @await RenderSectionAsync("scripts", required: false)
+</body>
+</html>

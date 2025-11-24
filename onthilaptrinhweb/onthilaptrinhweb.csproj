@@ -1,0 +1,121 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\ajax-loader.gif" />
+    <Content Remove="wwwroot\css\normalize.css" />
+    <Content Remove="wwwroot\css\vendor.css" />
+    <Content Remove="wwwroot\js\jquery-1.11.0.min.js" />
+    <Content Remove="wwwroot\js\modernizr.js" />
+    <Content Remove="wwwroot\js\plugins.js" />
+    <Content Remove="wwwroot\js\script.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\ajax-loader.gif" />
+    <None Include="wwwroot\css\normalize.css" />
+    <None Include="wwwroot\css\vendor.css" />
+    <None Include="wwwroot\icomoon\fonts\icomoon.eot" />
+    <None Include="wwwroot\icomoon\fonts\icomoon.svg" />
+    <None Include="wwwroot\icomoon\fonts\icomoon.ttf" />
+    <None Include="wwwroot\icomoon\fonts\icomoon.woff" />
+    <None Include="wwwroot\icomoon\icomoon.css" />
+    <None Include="wwwroot\icomoon\Read Me.txt" />
+    <None Include="wwwroot\images\american-express.jpg" />
+    <None Include="wwwroot\images\app-store.jpg" />
+    <None Include="wwwroot\images\banner-image3.jpg" />
+    <None Include="wwwroot\images\banner-image4.jpg" />
+    <None Include="wwwroot\images\banner1.jpg" />
+    <None Include="wwwroot\images\banner2.jpg" />
+    <None Include="wwwroot\images\brand1.png" />
+    <None Include="wwwroot\images\brand2.png" />
+    <None Include="wwwroot\images\brand3.png" />
+    <None Include="wwwroot\images\brand4.png" />
+    <None Include="wwwroot\images\brand5.png" />
+    <None Include="wwwroot\images\cat-item1.jpg" />
+    <None Include="wwwroot\images\cat-item2.jpg" />
+    <None Include="wwwroot\images\cat-item3.jpg" />
+    <None Include="wwwroot\images\collection-item.jpg" />
+    <None Include="wwwroot\images\collection-item1.jpg" />
+    <None Include="wwwroot\images\collection-item2.jpg" />
+    <None Include="wwwroot\images\collection-item3.jpg" />
+    <None Include="wwwroot\images\curly-divider.svg" />
+    <None Include="wwwroot\images\error-image.jpg" />
+    <None Include="wwwroot\images\google-play.jpg" />
+    <None Include="wwwroot\images\hero-image.jpg" />
+    <None Include="wwwroot\images\hero-image1.jpg" />
+    <None Include="wwwroot\images\insta-image1.jpg" />
+    <None Include="wwwroot\images\insta-image2.jpg" />
+    <None Include="wwwroot\images\insta-image3.jpg" />
+    <None Include="wwwroot\images\insta-image4.jpg" />
+    <None Include="wwwroot\images\insta-image5.jpg" />
+    <None Include="wwwroot\images\insta-image6.jpg" />
+    <None Include="wwwroot\images\leaf.png" />
+    <None Include="wwwroot\images\main-banner.jpg" />
+    <None Include="wwwroot\images\main-logo.png" />
+    <None Include="wwwroot\images\mastercard.png" />
+    <None Include="wwwroot\images\model.jpg" />
+    <None Include="wwwroot\images\ns-arrow-right.svg" />
+    <None Include="wwwroot\images\post-img1.jpg" />
+    <None Include="wwwroot\images\post-img2.jpg" />
+    <None Include="wwwroot\images\post-img3.jpg" />
+    <None Include="wwwroot\images\post-img4.jpg" />
+    <None Include="wwwroot\images\post-img5.jpg" />
+    <None Include="wwwroot\images\post-img6.jpg" />
+    <None Include="wwwroot\images\post-img7.jpg" />
+    <None Include="wwwroot\images\post-img8.jpg" />
+    <None Include="wwwroot\images\post-img9.jpg" />
+    <None Include="wwwroot\images\post-small-image1.jpg" />
+    <None Include="wwwroot\images\post-small-image2.jpg" />
+    <None Include="wwwroot\images\post-small-image3.jpg" />
+    <None Include="wwwroot\images\product-image.jpg" />
+    <None Include="wwwroot\images\product-item1.jpg" />
+    <None Include="wwwroot\images\product-item2.jpg" />
+    <None Include="wwwroot\images\product-item3.jpg" />
+    <None Include="wwwroot\images\product-item4.jpg" />
+    <None Include="wwwroot\images\product-large-1.jpg" />
+    <None Include="wwwroot\images\product-large-2.jpg" />
+    <None Include="wwwroot\images\product-large-3.jpg" />
+    <None Include="wwwroot\images\product-thumbnail-1.jpg" />
+    <None Include="wwwroot\images\product-thumbnail-2.jpg" />
+    <None Include="wwwroot\images\product-thumbnail-3.jpg" />
+    <None Include="wwwroot\images\review-image1.jpg" />
+    <None Include="wwwroot\images\review-image2.jpg" />
+    <None Include="wwwroot\images\selling-products1.jpg" />
+    <None Include="wwwroot\images\selling-products10.jpg" />
+    <None Include="wwwroot\images\selling-products11.jpg" />
+    <None Include="wwwroot\images\selling-products12.jpg" />
+    <None Include="wwwroot\images\selling-products13.jpg" />
+    <None Include="wwwroot\images\selling-products14.jpg" />
+    <None Include="wwwroot\images\selling-products15.jpg" />
+    <None Include="wwwroot\images\selling-products16.jpg" />
+    <None Include="wwwroot\images\selling-products17.jpg" />
+    <None Include="wwwroot\images\selling-products18.jpg" />
+    <None Include="wwwroot\images\selling-products19.jpg" />
+    <None Include="wwwroot\images\selling-products2.jpg" />
+    <None Include="wwwroot\images\selling-products20.jpg" />
+    <None Include="wwwroot\images\selling-products3.jpg" />
+    <None Include="wwwroot\images\selling-products4.jpg" />
+    <None Include="wwwroot\images\selling-products5.jpg" />
+    <None Include="wwwroot\images\selling-products6.jpg" />
+    <None Include="wwwroot\images\selling-products7.jpg" />
+    <None Include="wwwroot\images\selling-products8.jpg" />
+    <None Include="wwwroot\images\selling-products9.jpg" />
+    <None Include="wwwroot\images\single-image1.jpg" />
+    <None Include="wwwroot\images\single-image2.jpg" />
+    <None Include="wwwroot\images\text-pattern.png" />
+    <None Include="wwwroot\images\video-image.jpg" />
+    <None Include="wwwroot\images\visa-icon.jpg" />
+    <None Include="wwwroot\js\jquery-1.11.0.min.js" />
+    <None Include="wwwroot\js\modernizr.js" />
+    <None Include="wwwroot\js\plugins.js" />
+    <None Include="wwwroot\js\script.js" />
+    <None Include="wwwroot\css\style.css" />
+  </ItemGroup>
+
+</Project>
